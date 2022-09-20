@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Agenda</title>
+  </head>
+  <body>
+    <section class="container">
+      <header class="header">
+        <h1 class="main-title">Minha agenda</h1>
+        <button class="add-new">Novo contato</button>
+      </header>
+      <main>
+        <section class="section-form">
+          <form class="form">
+            <input
+              type="text"
+              placeholder="Insira o nome do contato"
+              required
+              class="contact-name input"
+            />
+            <input
+              type="tel"
+              placeholder="Insira o telefone do contato"
+              required
+              class="number-contact input"
+              maxlength="15"
+            />
+            <div class="btn-form">
+              <button type="submit" class="btn btn-new">Salvar</button>
+              <button type="reset" class="btn btn-cancel">Cancelar</button>
+            </div>
+          </form>
+        </section>
+        <table class="table" cellspacing="0">
+          <thead>
+            <tr>
+              <th>Nome do contato</th>
+              <th>Numero do contato</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>----</td>
+              <td>---</td>
+            </tr>
+          </tbody>
+        </table>
+      </main>
+    </section>
+    <script src="./ script.js"></script>
+  </body>
+</html>
